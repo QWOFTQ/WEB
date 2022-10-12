@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  background-color: white;
 }
 
 .footer {
@@ -30,7 +30,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: black;
   text-decoration: none;
 }
 
@@ -44,8 +44,8 @@
   margin: 1rem;
   line-height: 1.15;
   font-size: 4rem;
-  color : blue;
-  background-color: cyan;
+  color : black;
+  
 }
 
 .title,
