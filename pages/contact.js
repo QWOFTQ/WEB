@@ -14,7 +14,8 @@ export default function Contact() {
       width={200}
       height={250}/>
       <p>안녕하세요 반갑습니다!</p>
-      <p>이름 : 강채린</p>    
+      <p>이름 : 강채린</p>
+      <p>나이 : 21세</p>   
     </div>
   )
 }
