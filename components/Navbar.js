@@ -10,8 +10,6 @@ export default function Navbar() {
         <Link href="/about"><a>About</a></Link>
         
         <Link href="/profile"><a>Profile</a></Link>
-        
-        <Link href="/coins"><a>Coins</a></Link>
 
         <Link href="/contact"><a>자기소개</a></Link>
       </div>
