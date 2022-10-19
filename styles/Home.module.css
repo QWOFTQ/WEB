@@ -1,6 +1,7 @@
 .container {
   padding: 0 2rem;
   background-color: lightgray;
+  
 }
 
 .about {
@@ -12,6 +13,7 @@
   justify-content: center;
   align-items: center;
   background-color: lightgray;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .main {
@@ -23,6 +25,7 @@
   justify-content: center;
   align-items: center;
   background-color: lightgray;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .footer {

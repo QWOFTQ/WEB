@@ -1,3 +1,4 @@
+
 import styles from '../styles/Home.module.css'
 
 export default function about() {
@@ -5,6 +6,7 @@ export default function about() {
   return (
     <div className= {styles.about} >
       <h1>About Page</h1>
+
       <p>안녕하세요, {name}님!</p>
     </div>
   )
