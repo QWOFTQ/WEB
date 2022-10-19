@@ -146,3 +146,16 @@
     filter: invert(1);
   }
 }
+
+.me {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/note.jpg);
+  background-size: cover;
+  font-weight: bold;
+}

@@ -6,7 +6,7 @@ import chaerin from "../public/images/chaerin.jpg"
 
 export default function Contact() {
   return (
-    <div className={styles.main}>
+    <div className={styles.me}>
       <h1>자기 소개</h1>
       <Image
       src={chaerin}
