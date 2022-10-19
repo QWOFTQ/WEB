@@ -3,6 +3,17 @@ import React from 'react'
 import Coin from '../../components/Coin'
 import styles from '../../styles/Coin.module.css'
 
+var axios = require('axios');
+
+
+
+axios(config)
+.then(function (response) {
+  console.log(JSON.stringify(response.data));
+})
+.catch(function (error) {
+  console.log(error);
+});
 
 export default function CoinList({coinData}) {
   console.log(coinData)
@@ -26,12 +37,14 @@ export default function CoinList({coinData}) {
   )
 }
 
-export const getStaticProps = async () => {
-  const result = await axios.get('https://api.coinstats.app/public/v1/coins?skip=0')
 
+export const getStaticProps = async () => {
+  const result = await axios.get('https://api.coinstats.app/public/v1/coins?skip=0np')
+  
   return {
     props: {
       coinData: result.data,
     }, revalidate: 10,
   }
 } 
+
